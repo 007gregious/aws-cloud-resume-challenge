@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains my implementation of the **Cloud Resume Challenge** created by [Mr. Forrest](https://www.youtube.com/watch?v=1u1K6j2C3aE). The challenge aims to build a cloud-based resume using various cloud services and technologies. The goal is to showcase skills in cloud computing, web development, and infrastructure as code.
+This repository contains my implementation of the **Cloud Resume Challenge** created by [Mr. Forrest]([https://www.youtube.com/watch?v=1u1K6j2C3aE](https://cloudresumechallenge.dev/docs/contribute/)). The challenge aims to build a cloud-based resume using various cloud services and technologies. The goal is to showcase skills in cloud computing, web development, and infrastructure as code.
 
 ## Project Features
 
@@ -51,7 +51,7 @@ Contributions are welcome! If you have suggestions or improvements, feel free to
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgements
-Special thanks to [Mr. Forrest](https://www.youtube.com/watch?v=1u1K6j2C3aE) for the inspiration and guidance throughout this challenge.
+Special thanks to [Mr. Forrest]([https://www.youtube.com/watch?v=1u1K6j2C3aE](https://cloudresumechallenge.dev/docs/contribute/)) for the inspiration and guidance throughout this challenge.
 Thanks to the AWS community for their numerous resources and support.
    
 
