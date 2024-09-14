@@ -52,8 +52,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Acknowledgements
 Special thanks to [Mr. Forrest](https://cloudresumechallenge.dev/docs/contribute/) for the inspiration and guidance throughout this challenge.
-<<<<<<< HEAD
 Thanks to the AWS community for their numerous resources and support.
-=======
-Thanks to the AWS community for their numerous resources and support.
->>>>>>> e747320d1fd6809cdfdde6d0ea62bb56d134cebf
+   
+
+   
