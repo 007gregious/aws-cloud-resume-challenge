@@ -51,7 +51,7 @@ resource "aws_iam_policy" "iam_policy_for_resume_project" {
             "dynamodb:UpdateItem",
 			      "dynamodb:GetItem"
           ],
-          "Resource" : "arn:aws:dynamodb:*:*:table/resume-challenge"
+          "Resource" : "arn:aws:dynamodb:*:*:table/cloudresume-test"
         },
       ]
   })
