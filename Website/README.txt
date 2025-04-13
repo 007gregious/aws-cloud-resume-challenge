@@ -7,7 +7,7 @@ This repository contains my implementation of the **Cloud Resume Challenge** cre
 ## Project Features
 
 - **Host a static resume** on a cloud platform (AWS S3).
-- **Use a custom domain** for the resume ([Ikoh Sylva](http://ikohsylva.net.ng)).
+- **Use a custom domain** for the resume ([Ikoh Sylva](http://ikohsylva.me)).
 - **Implement a contact form** that captures user submissions and sends emails using AWS services.
 - **Deploy serverless functions** to handle backend operations (AWS Lambda).
 - **Store incoming messages** in a database (DynamoDB).
@@ -36,7 +36,7 @@ This repository contains my implementation of the **Cloud Resume Challenge** cre
 
 ## Getting Started
 
-To view the deployed resume, visit: [Ikoh Sylva](http://ikohsylva.net.ng)
+To view the deployed resume, visit: [Ikoh Sylva](http://ikohsylva.me)
 
 ### Prerequisites
 
@@ -52,8 +52,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Acknowledgements
 Special thanks to [Mr. Forrest](https://cloudresumechallenge.dev/docs/contribute/) for the inspiration and guidance throughout this challenge.
-<<<<<<< HEAD
 Thanks to the AWS community for their numerous resources and support.
-=======
-Thanks to the AWS community for their numerous resources and support.
->>>>>>> e747320d1fd6809cdfdde6d0ea62bb56d134cebf
