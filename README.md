@@ -36,9 +36,10 @@ This repository contains my implementation of the **Cloud Resume Challenge** cre
 
 ## Getting Started
 
-To view the deployed resume, visit: [Ikoh Sylva](http://ikohsylva.net.ng)
+- If you would like to take the challenge, visit: [The Cloud Resume Challenge](https://cloudresumechallenge.dev/docs/contribute/)
+- To view my deployed resume, visit: [Ikoh Sylva](http://ikohsylva.net.ng)
 
-### Prerequisites
+## Prerequisites
 
 - An AWS account
 - Basic knowledge of HTML, CSS, and JavaScript
