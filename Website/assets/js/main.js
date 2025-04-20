@@ -189,10 +189,10 @@
 
 })(jQuery);
 
-// JavaScript Code
+// JavaScript Code for the cloud resume challenge.
 const counter = document.querySelector(".counter-number");
 async function updateCounter() {
-    let response = await fetch("https://r2sadbbvmflt4licj2qk6pdi4i0vjohk.lambda-url.us-east-1.on.aws/");
+    let response = await fetch("https://jeryz6yeticgl57dmlriihhywi0zsrtn.lambda-url.us-east-1.on.aws/");
     let data = await response.json();
     counter.innerHTML = ` Views: ${data}`;
 }
