@@ -1,0 +1,230 @@
+/* CSS RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Light Theme Variables */
+:root {
+  --bg: #f9fafb;
+  --card: #ffffff;
+  --text: #1f2937;
+  --muted: #4b5563;
+  --accent: #2563eb;
+  --border: #e5e7eb;
+}
+
+/* Dark Theme Variables */
+body.dark {
+  --bg: #0f172a;
+  --card: #020617;
+  --text: #e5e7eb;
+  --muted: #94a3b8;
+  --accent: #60a5fa;
+  --border: #1e293b;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+/* Container */
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  background: var(--card);
+  padding: 40px;
+  border-radius: 8px;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.title {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.contact {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.contact a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+/* Sections */
+section {
+  margin-top: 32px;
+}
+
+h2 {
+  font-size: 1.4rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 6px;
+  margin-bottom: 12px;
+}
+
+h3 {
+  font-size: 1rem;
+  margin-top: 16px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* Theme Toggle */
+.theme-toggle {
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.theme-toggle input {
+  display: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding: 24px;
+    margin: 20px;
+  }
+
+  .header {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 0.95rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+}
+
+/* Footer */
+.footer {
+  margin-top: 48px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.footer p {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.footer-muted {
+  margin-left: 8px;
+  opacity: 0.8;
+}
+
+/* Fancy Download Button */
+.download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #ffffff;
+  background: linear-gradient(135deg, var(--accent), #1d4ed8);
+  border-radius: 999px;
+  text-decoration: none;
+  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.35);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.download-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(37, 99, 235, 0.45);
+}
+
+.download-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 6px 16px rgba(37, 99, 235, 0.35);
+}
+
+/* Dark mode refinement */
+body.dark .download-btn {
+  box-shadow: 0 8px 20px rgba(96, 165, 250, 0.35);
+}
+
+/* Responsive footer */
+@media (max-width: 600px) {
+  .footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .download-btn {
+    align-self: flex-end;
+  }
+}
+
+/* PRINT / PDF OPTIMIZATION */
+@media print {
+  body {
+    background: #ffffff;
+    color: #000000;
+  }
+
+  .container {
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+  }
+
+  .theme-toggle,
+  .floating-download-btn {
+    display: none !important;
+  }
+
+  a {
+    color: #000000;
+    text-decoration: none;
+  }
+
+  h1, h2, h3 {
+    page-break-after: avoid;
+  }
+
+  section {
+    page-break-inside: avoid;
+  }
+}
